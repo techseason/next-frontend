@@ -99,64 +99,7 @@ export default function Home({ blogs, profile }) {
 
       </Head>
       <NavBar profile={profile} />
-      {/* <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
-        <div className="container flex items-center justify-between">
-          <div>
-            <a href="/">
-             <h2 className='text-white text-2xl font-bold'>{profile.title}</h2>
-            </a>
-          </div>
-          <div className="hidden lg:block">
-            <ul className="flex items-center">
-              <li className="group pl-6">
-                <a href='#about'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-                <span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-              <a href='#portfolio'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-              <a href='#clients'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-              <a href='#work'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-              <a href='#statistics'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-              <a href='#blog'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span></a>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-                <span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-            </ul>
-          </div>
-          <div className="block lg:hidden">
-            <button>
-              <i className="bx bx-menu text-4xl text-white"></i>
-            </button>
-          </div>
-        </div>
-      </div> */}
+
       <div
         className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" />
       <div className="hidden absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
@@ -741,38 +684,7 @@ export default function Home({ blogs, profile }) {
                   </div></div>
               </Link>
             })}
-            {/* <a href="/post" className="shadow">
-              <div style={{"backgroundImage": "url(/assets/img/post-02.png)"}}
-                className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                <span
-                  className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                <span
-                  className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
-                  More</span>
-              </div>
-              <div className="bg-white py-6 px-5 xl:py-8">
-                <span className="block font-body text-lg font-semibold text-black">My personal productivity system</span>
-                <span className="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-              </div>
-            </a>
-            <a href="/post" className="shadow">
-              <div style={{"backgroundImage": "url(/assets/img/post-03.png)"}}
-                className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                <span
-                  className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                <span
-                  className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
-                  More</span>
-              </div>
-              <div className="bg-white py-6 px-5 xl:py-8">
-                <span className="block font-body text-lg font-semibold text-black">My year in review 2020</span>
-                <span className="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-              </div>
-            </a> */}
+           
           </div>
         </div>
       </div>
@@ -847,27 +759,7 @@ export default function Home({ blogs, profile }) {
         </div>
       </div>
 
-      {/* <div className="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-        style={{ "backgroundImage": "url(/assets/img/map.png)" }}></div>
-
-      <div className="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-        style={{ "backgroundImage": "url(/assets/img/bg-cta.jpg)" }}>
-        <div className="container relative z-30">
-          <h3
-            className="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
-            Keep <span className="font-bold">up-to-date</span> <br />
-            with what I'm up to
-          </h3>
-          <form className="mt-6 flex flex-col justify-center sm:flex-row">
-            <input className="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
-              id="email" placeholder="Give me your Email" />
-            <button
-              className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-              Join the club
-            </button>
-          </form>
-        </div>
-      </div> */}
+      
     </div><div className="bg-primary">
           <div className="container flex flex-col justify-between py-6 sm:flex-row">
             <p className="text-center font-body text-white md:text-left">
